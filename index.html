@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE PATH TO SUCCESS: ACHIEVING YOUR CAREER DREAMS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+  @media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .profile-section {
+    flex-direction: column;
+  }
+
+  .profile-text {
+    padding: 20px;
+  }
+
+  .section h3,
+  .card h4 {
+    font-size: 20px;
+  }
+
+  .links a {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+    :root {
+      --primary: #3E5C49;
+      --accent: #A3B18A;
+      --bg: #F0F4EC;
+      --text: #2F3E34;
+      --hover: #6C8E68;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    nav {
+      background: var(--primary);
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: var(--hover);
+    }
+
+    .hero {
+      background: url('Images/Checkered Desktop Wallpaper.jpg') no-repeat center center / cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 45px;
+      max-width: 700px;
+      background-color: rgba(62, 92, 73, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 100px 20px 60px;
+    }
+
+    .profile-section {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      margin-bottom: 50px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .profile-section img {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .profile-text {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .profile-text h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    .section {
+      background-color: white;
+      padding: 30px;
+      margin-bottom: 40px;
+      border-left: 5px solid var(--primary);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .section h3 {
+      margin-bottom: 15px;
+      color: var(--primary);
+      font-size: 24px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--accent);
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .links a {
+      text-decoration: none;
+      background-color: var(--primary);
+      color: white;
+      padding: 12px 24px;
+      font-weight: 600;
+      font-size: 20px;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .links a:hover {
+      background-color: var(--hover);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="step-by-step.html">STEP BY STEP GUIDE</a></li>
+      <li><a href="inspiration.html">INSPIRATION & RESOURCES</a></li>
+      <li><a href="Contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>The Path to Success: Achieving Your Career Dreams</h1>
+  </section>
+
+  <main>
+
+    <div class="profile-section">
+      <img src="Images/Gambar Saya.jpg" alt="Nur Adleena">
+      <div class="profile-text">
+        <h2>NUR ADLEENA MOHAMAD NOR</h2>
+        <p>
+          Hey, I'm Adleena — thanks for dropping by.
+This little corner of the internet is where I’m documenting my path to becoming a creative director. It’s not all perfect — some days are full of wins, others are full of “eh, maybe not that” moments. But every step teaches me something, and that’s what this space is for.
+<br>
+Whether you’re here out of curiosity, looking for inspo, or just figuring things out yourself, I hope my journey gives you something meaningful to take with you.
+        </p>
+<br>
+<br>
+<br>
+    <h3>A Work-in-Progress (and Proud)</h3>
+        <p>I’m still a student, just getting started — but trust me, I’ve got big dreams. Creative direction isn’t just a title to me; it’s the kind of work I want to grow into. Right now, I’m learning through classes, late-night projects, failed ideas that turned into better ones, and just... showing up, again and again.
+        This site isn’t about having it all figured out — it’s about building something while figuring it out. Kind of like a creative journal, just a little more dressed up.
+
+So stick around, scroll through, say hi if you want — this is me, in motion.</p>
+      <br>
+      <br>
+      <p>“You don’t have to be great to start, but you have to start to be great.” — <strong>Zig Ziglar</strong></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Born to Create: My Aspiration to Become a Creative Director</h3>
+      <p>My dream is to become a <strong>Creative Director</strong> — a visionary leader who brings ideas to life through storytelling, design, and strategic thinking. I am inspired by how Creative Directors guide the creative process from concept to execution, ensuring every visual, message, and experience aligns with a brand’s identity. They are not only designers but also mentors, communicators, and problem-solvers. I aspire to one day lead creative teams, shape compelling brand narratives, and use the power of design to connect with people, spark emotion, and drive innovation. It's more than a title — it's a role that combines artistry with leadership to make a real impact.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h4>VISION & INSPIRATION</h4>
+        <p>I’m inspired by the little details in everyday life and how they can be turned into meaningful visuals. My vision is to craft creative work that speaks honestly, feels personal, and connects with people—whether it's through editing, storytelling, or visual content.</p>
+      </div>
+      <div class="card">
+        <h4>SKILLS I'M BUILDING</h4>
+        <p>I’m currently sharpening my skills in editing, visual communication, creative writing, and digital storytelling—especially with tools like Adobe Suite and AI like ChatGPT. I’m also learning how to plan content with intention and emotion.</p>
+      </div>
+      <div class="card">
+        <h4>MILESTONE & GROWTH</h4>
+        <p>From uni projects to personal experiments, each step is helping me grow into a more confident and thoughtful creator. My biggest growth? Learning to trust my ideas, explore new styles, and express myself without overthinking.</p>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="step-by-step.html">LEARN MORE ABOUT MY JOURNEY</a>
+    </div>
+
+  </main>
+<footer style="background-color: var(--primary); color: white; padding: 20px 20px 20px; text-align: center;">
+  <p style="font-size: 14px;">© 2025 Nur Adleena Mohamad Nor — All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
