@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSPIRATION & RESOURCES</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+
+  @media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .profile-section {
+    flex-direction: column;
+  }
+
+  .profile-text {
+    padding: 20px;
+  }
+
+  .section h3,
+  .card h4 {
+    font-size: 20px;
+  }
+
+  .links a {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+    .influential-figures h2 {
+  text-align: center;
+  font-size: 32px;
+  color: var(--primary);
+  margin: 50px 0 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.inspiration-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.inspiration-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.inspiration-card h3 {
+  font-size: 18px;
+  margin: 12px 0 8px;
+  color: var(--text);
+}
+
+.inspiration-card a {
+  text-decoration: none;
+  background-color: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.inspiration-card a:hover {
+  background-color: var(--hover);
+}
+    :root {
+      --primary: #3E5C49;
+      --accent: #A3B18A;
+      --bg: #F0F4EC;
+      --text: #2F3E34;
+      --hover: #6C8E68;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    nav {
+      background: var(--primary);
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: var(--hover);
+    }
+
+    header {
+  background: linear-gradient(to right, rgba(62, 92, 73, 0.9), rgba(163, 177, 138, 0.7)),
+              url('Images/Background Garis.jpg'); /* Change the path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px 60px;
+  text-align: center;
+  color: white;
+}
+    header h1 {
+      font-size: 42px;
+      font-weight: 700;
+    }
+
+    main 
+    {
+      max-width: 900px;
+      margin: auto;
+      padding: 100px 20px 60px;
+
+    }
+
+
+
+    .section {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-left: 5px solid var(--primary);
+    }
+
+    .section h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+      font-size: 26px;
+    }
+
+    .section h2 i {
+      margin-right: 10px;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid var(--accent);
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--accent);
+      color: white;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: var(--hover);
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section ul li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .section ul li i {
+      color: var(--accent);
+      margin-right: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: var(--primary);
+      color: white;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="step-by-step.html">STEP BY STEP GUIDE</a></li>
+      <li><a href="inspiration.html">INSPIRATION & RESOURCES</a></li>
+      <li><a href="Contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Inspiration & Resources</h1>
+  </header>
+
+  <main>
+    <div class="section">
+      <h2><i class="fas fa-user-astronaut"></i> Influential Figures in Creative Direction</h2>
+      <p>These professionals have made a major impact in the creative industry and continue to inspire my journey:</p>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Field</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Jessica Walsh</td>
+          <td>Art & Creative Direction</td>
+          <td><a href="https://andwalsh.com" target="_blank">andwalsh.com</a></td>
+        </tr>
+        <tr>
+          <td>Aaron Draplin</td>
+          <td>Graphic Design & Branding</td>
+          <td><a href="https://www.draplin.com/" target="_blank">draplin.com</a></td>
+        </tr>
+        <tr>
+          <td>Chris Do</td>
+          <td>Creative Strategy & Education</td>
+          <td><a href="https://thefutur.com" target="_blank">thefutur.com</a></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+<div class="grid-container">
+  <div class="inspiration-card">
+    <img src="Images/Jessica Walsh.jpg" alt="Person One">
+    <h3>JESSICA WALSH</h3>
+    <a href="https://andwalsh.com/" target="_blank">Visit Website</a>
+  </div>
+  <div class="inspiration-card">
+    <img src="Images/Aaron Draplin.jpg" alt="Person Two">
+    <h3>Aaron Draplin</h3>
+    <a href="https://www.draplin.com/" target="_blank">Visit Website</a>
+  </div>
+  <div class="inspiration-card">
+    <img src="Images/Chris Do.jpg" alt="Person Three">
+    <h3>Chris Do</h3>
+    <a href="https://www.thefutur.com" target="_blank">Visit Website</a>
+  </div>
+</div>
+
+    </div>
+
+    <div class="section">
+      <h2><i class="fab fa-youtube"></i> YouTube Channels That Keep Me Learning</h2>
+      <ul>
+        <li><i class="fas fa-play-circle"></i><a href="https://www.youtube.com/user/thefuturishere" target="_blank">The Futur</a> – Creative strategy, branding, and business advice</li>
+        <li><i class="fas fa-play-circle"></i><a href="https://www.youtube.com/user/AdobeCreativeCloud" target="_blank">Adobe Creative Cloud</a> – Tutorials, trends, and design inspiration</li>
+        <li><i class="fas fa-play-circle"></i><a href="https://www.youtube.com/@nounish" target="_blank">Nounish</a> – Creative Collective Artist Production</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-blog"></i> Blogs & Websites I Follow</h2>
+      <ul>
+        <li><i class="fas fa-book"></i><a href="https://www.creativebloq.com/" target="_blank">Creative Bloq</a> – Industry news, how-tos, and design trends</li>
+        <li><i class="fas fa-palette"></i><a href="https://www.behance.net/" target="_blank">Behance</a> – Portfolio inspiration from creatives worldwide</li>
+        <li><i class="fas fa-lightbulb"></i><a href="https://www.itsnicethat.com/" target="_blank">It's Nice That</a> – Spotlight on emerging artists and innovative work</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-map-marker-alt"></i> Local Resources in Malaysia</h2>
+      <ul>
+        <li><i class="fas fa-laptop-code"></i><a href="https://www.mdec.my/" target="_blank">MDEC</a> – Malaysian Digital Economy Corporation</li>
+        <li><i class="fas fa-pen-nib"></i><a href="https://www.biji-biji.com/" target="_blank">BijiBiji</a> – Social Innovation in Technology & Education</li>
+      </ul>
+    </div>
+</section>
+
+  </main>
+
+  <footer>
+    © 2025 Nur Adleena Mohamad Nor — All rights reserved.
+  </footer>
+
+</body>
+</html>
